@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Testu — Delete your Testu account</title>
+<meta name="description" content="Testu — Delete your Testu account">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0A0B0F;--surface:#14161C;--line:#262933;--text:#F2F3F5;--soft:#B8BCC6;--muted:#7F8591;--lime:#D4FF3A;--red:#FF6B6B}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);font-family:"IBM Plex Sans Arabic",system-ui,-apple-system,"Segoe UI",Tahoma,sans-serif;line-height:1.75}
+.wrap{max-width:720px;margin:0 auto;padding:24px 16px 64px}
+header{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:28px}
+.brand{font-weight:800;font-size:22px;color:var(--text);text-decoration:none;letter-spacing:-.3px}.brand b{color:var(--lime)}
+.lang{background:var(--surface);border:1px solid var(--line);color:var(--soft);border-radius:999px;padding:6px 14px;font:inherit;font-size:13px;cursor:pointer}
+h1{font-size:28px;line-height:1.3;margin:0 0 6px;text-wrap:balance}h2{font-size:17px;margin:26px 0 6px}
+p,li{color:var(--soft);font-size:15px}.meta{color:var(--muted);font-size:13px;margin:0 0 18px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:18px 18px;margin:14px 0}
+.card h2{margin-top:0}.warn{border-color:rgba(255,107,107,.35)}.warn h2{color:var(--red)}
+ol,ul{padding-inline-start:22px;margin:8px 0}a{color:var(--lime)}
+.todo{color:var(--red);font-weight:600}
+nav{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+nav a{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:10px 16px;text-decoration:none;color:var(--text);font-weight:600;font-size:14px}
+footer{margin-top:40px;color:var(--muted);font-size:13px;border-top:1px solid var(--line);padding-top:16px}
+[data-l]{display:none}html[lang=ar] [data-l=ar],html[lang=en] [data-l=en]{display:block}
+html[lang=ar] span[data-l=ar],html[lang=en] span[data-l=en]{display:inline}
+</style>
+<script>
+(function(){var k='testu-lang',l='ar';try{l=localStorage.getItem(k)||((navigator.language||'ar').slice(0,2)==='ar'?'ar':'en')}catch(e){}
+function set(v){document.documentElement.lang=v;document.documentElement.dir=v==='ar'?'rtl':'ltr';try{localStorage.setItem(k,v)}catch(e){}}
+set(l);document.addEventListener('click',function(e){if(e.target.closest('.lang'))set(document.documentElement.lang==='ar'?'en':'ar')});})();
+</script>
+</head>
+<body>
+<div class="wrap">
+<header><a class="brand" href="index.html">Test<b>u</b></a>
+<button class="lang" type="button"><span data-l="ar">English</span><span data-l="en">العربية</span></button></header>
+<main>
+<div data-l="ar"><h1>حذف حسابك في Testu</h1><p class="meta">تطبيق Testu — طلب حذف الحساب والبيانات</p>
+<div class="card"><h2>الطريقة 1: من داخل التطبيق (فورية)</h2>
+<ol><li>افتح تطبيق Testu وسجّل الدخول.</li><li>اذهب إلى «حسابي» ثم «الإعدادات».</li><li>اضغط «حذف الحساب» وأكّد.</li></ol>
+<p>يُحذف حسابك وبياناته فورًا.</p></div>
+<div class="card"><h2>الطريقة 2: بالبريد (دون التطبيق)</h2>
+<p>أرسل رسالة من بريد Google المسجّل في حسابك إلى <a href="mailto:testu.support@gmail.com">testu.support@gmail.com</a> بعنوان «حذف حسابي في Testu». ننفّذ الطلب خلال 30 يومًا ونؤكّد لك بالبريد.</p></div>
+<div class="card warn"><h2>ما الذي يُحذف</h2>
+<ul><li>ملفك الشخصي: الاسم، والصورة، والنبذة، والدولة، ونوع الجهاز.</li><li>بريد Google Play الذي شاركته، وموافقة مشاركته.</li><li>التطبيقات التي أضفتها وشعاراتها.</li><li>صور الإثبات التي رفعتها، وتقارير الأخطاء ومرفقاتها.</li><li>عضويتك في الدفعات والتبادلات، ورصيد الشحنات، والإشعارات.</li></ul>
+<p>الحذف نهائي ولا يمكن التراجع عنه. إن كنت في دفعة جارية فستخرج منها.</p></div>
+<div class="card"><h2>ما الذي نحتفظ به</h2>
+<p>لا نحتفظ ببيانات شخصية بعد الحذف. قد تبقى نسخ احتياطية مشفّرة لدى مزوّد الاستضافة حتى 30 يومًا ثم تُمحى تلقائيًا، وقد نحتفظ بما يلزمنا القانون بحفظه فقط.</p></div></div>
+<div data-l="en"><h1>Delete your Testu account</h1><p class="meta">Testu app — request deletion of your account and data</p>
+<div class="card"><h2>Option 1: In the app (immediate)</h2>
+<ol><li>Open the Testu app and sign in.</li><li>Go to “Me”, then “Settings”.</li><li>Tap “Delete account” and confirm.</li></ol>
+<p>Your account and its data are deleted immediately.</p></div>
+<div class="card"><h2>Option 2: By email (without the app)</h2>
+<p>Send an email from the Google address registered on your account to <a href="mailto:testu.support@gmail.com">testu.support@gmail.com</a> with the subject “Delete my Testu account”. We process the request within 30 days and confirm by email.</p></div>
+<div class="card warn"><h2>What is deleted</h2>
+<ul><li>Your profile: name, photo, bio, country and device model.</li><li>The Google Play email you shared and your sharing consent.</li><li>The apps you added and their logos.</li><li>Proof screenshots you uploaded, and bug reports with their attachments.</li><li>Your batch and exchange memberships, charge balance and notifications.</li></ul>
+<p>Deletion is permanent and cannot be undone. If you are in an active batch, you will leave it.</p></div>
+<div class="card"><h2>What we keep</h2>
+<p>We keep no personal data after deletion. Encrypted backups at our hosting provider may persist for up to 30 days before being erased automatically, and we keep only what the law requires.</p></div></div>
+</main>
+<footer>
+<span data-l="ar">Testu خدمة مستقلة وغير تابعة لـ Google أو Google Play. · <a href="privacy.html">الخصوصية</a> · <a href="terms.html">الشروط</a> · <a href="delete-account.html">حذف الحساب</a></span>
+<span data-l="en">Testu is an independent service, not affiliated with Google or Google Play. · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a> · <a href="delete-account.html">Delete account</a></span>
+</footer>
+</div>
+</body>
+</html>
